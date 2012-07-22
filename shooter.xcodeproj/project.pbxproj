@@ -39,18 +39,18 @@
 		52E9A8AC15BBE55A003B7D61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		52E9A8AE15BBE55A003B7D61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		52E9A8B015BBE55A003B7D61 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		52E9A8B415BBE55A003B7D61 /* shooter-Info.plist */ = {isa = PBXFileReference; path = "shooter-Info.plist"; sourceTree = "<group>"; };
+		52E9A8B415BBE55A003B7D61 /* shooter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "shooter-Info.plist"; sourceTree = "<group>"; };
 		52E9A8B615BBE55A003B7D61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		52E9A8B815BBE55A003B7D61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		52E9A8BA15BBE55A003B7D61 /* shooter-Prefix.pch */ = {isa = PBXFileReference; path = "shooter-Prefix.pch"; sourceTree = "<group>"; };
-		52E9A8BB15BBE55A003B7D61 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		52E9A8BA15BBE55A003B7D61 /* shooter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "shooter-Prefix.pch"; sourceTree = "<group>"; };
+		52E9A8BB15BBE55A003B7D61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52E9A8BC15BBE55A003B7D61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		52E9A8BF15BBE55A003B7D61 /* shooter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = shooter.xcdatamodel; sourceTree = "<group>"; };
 		52E9A8C615BBE55A003B7D61 /* shooterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shooterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E9A8C715BBE55A003B7D61 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		52E9A8D015BBE55A003B7D61 /* shooterTests-Info.plist */ = {isa = PBXFileReference; path = "shooterTests-Info.plist"; sourceTree = "<group>"; };
+		52E9A8D015BBE55A003B7D61 /* shooterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "shooterTests-Info.plist"; sourceTree = "<group>"; };
 		52E9A8D215BBE55A003B7D61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		52E9A8D415BBE55A003B7D61 /* shooterTests.h */ = {isa = PBXFileReference; path = shooterTests.h; sourceTree = "<group>"; };
+		52E9A8D415BBE55A003B7D61 /* shooterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shooterTests.h; sourceTree = "<group>"; };
 		52E9A8D515BBE55A003B7D61 /* shooterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shooterTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
