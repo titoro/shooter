@@ -8,11 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@class AbstractEnemy
+@class AbstractEnemy;
 
 /** AbstractEnemy の状態変更通知を受け取るプロトコルです。 */
 @protocol EnemyActionListener <NSObject>
 
-- (void)didEnemyDead:(AbstractEnemy)target :(NSDictionary *)userInfo;
+- (void)didEnemyDead:(AbstractEnemy *)target
+            userInfo:(NSDictionary *)userInfo;
 
 @end
