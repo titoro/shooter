@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51722FA015BC4B7E000FDDFB /* AbstractMoveLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 51722F9F15BC4B7E000FDDFB /* AbstractMoveLogic.m */; };
 		52E9A8AB15BBE55A003B7D61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E9A8AA15BBE55A003B7D61 /* UIKit.framework */; };
 		52E9A8AD15BBE55A003B7D61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E9A8AC15BBE55A003B7D61 /* Foundation.framework */; };
 		52E9A8AF15BBE55A003B7D61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E9A8AE15BBE55A003B7D61 /* CoreGraphics.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51722F9E15BC4B7E000FDDFB /* AbstractMoveLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractMoveLogic.h; sourceTree = "<group>"; };
+		51722F9F15BC4B7E000FDDFB /* AbstractMoveLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractMoveLogic.m; sourceTree = "<group>"; };
 		52E9A8A615BBE559003B7D61 /* shooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E9A8AA15BBE55A003B7D61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		52E9A8AC15BBE55A003B7D61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -80,6 +83,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51722F9A15BC4A75000FDDFB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				51722F9C15BC4A7C000FDDFB /* strategy */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		51722F9C15BC4A7C000FDDFB /* strategy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = strategy;
+			sourceTree = "<group>";
+		};
+		51722F9D15BC4A94000FDDFB /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		51722FA115BC4F95000FDDFB /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		51722FA215BC4FB2000FDDFB /* stage */ = {
+			isa = PBXGroup;
+			children = (
+				51722FA315BC4FB8000FDDFB /* obj */,
+			);
+			name = stage;
+			sourceTree = "<group>";
+		};
+		51722FA315BC4FB8000FDDFB /* obj */ = {
+			isa = PBXGroup;
+			children = (
+				51722FA415BC4FD7000FDDFB /* strategy */,
+			);
+			name = obj;
+			sourceTree = "<group>";
+		};
+		51722FA415BC4FD7000FDDFB /* strategy */ = {
+			isa = PBXGroup;
+			children = (
+				51722FA515BC4FE4000FDDFB /* move */,
+			);
+			name = strategy;
+			sourceTree = "<group>";
+		};
+		51722FA515BC4FE4000FDDFB /* move */ = {
+			isa = PBXGroup;
+			children = (
+				51722F9E15BC4B7E000FDDFB /* AbstractMoveLogic.h */,
+				51722F9F15BC4B7E000FDDFB /* AbstractMoveLogic.m */,
+			);
+			name = move;
+			sourceTree = "<group>";
+		};
 		52E9A89B15BBE559003B7D61 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +179,10 @@
 		52E9A8B215BBE55A003B7D61 /* shooter */ = {
 			isa = PBXGroup;
 			children = (
+				51722FA215BC4FB2000FDDFB /* stage */,
+				51722FA115BC4F95000FDDFB /* controller */,
+				51722F9D15BC4A94000FDDFB /* view */,
+				51722F9A15BC4A75000FDDFB /* model */,
 				52E9A8BB15BBE55A003B7D61 /* AppDelegate.h */,
 				52E9A8BC15BBE55A003B7D61 /* AppDelegate.m */,
 				52E9A8BE15BBE55A003B7D61 /* shooter.xcdatamodeld */,
@@ -260,6 +329,7 @@
 				52E9A8B915BBE55A003B7D61 /* main.m in Sources */,
 				52E9A8BD15BBE55A003B7D61 /* AppDelegate.m in Sources */,
 				52E9A8C015BBE55A003B7D61 /* shooter.xcdatamodeld in Sources */,
+				51722FA015BC4B7E000FDDFB /* AbstractMoveLogic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +493,7 @@
 				52E9A8DB15BBE55A003B7D61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52E9A8DC15BBE55A003B7D61 /* Build configuration list for PBXNativeTarget "shooterTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +502,7 @@
 				52E9A8DE15BBE55A003B7D61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
