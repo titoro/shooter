@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		51722FA015BC4B7E000FDDFB /* AbstractMoveLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 51722F9F15BC4B7E000FDDFB /* AbstractMoveLogic.m */; };
 		51722FAD15BC5166000FDDFB /* FpsConf.m in Sources */ = {isa = PBXBuildFile; fileRef = 51722FAC15BC5166000FDDFB /* FpsConf.m */; };
+		51722FB015BC52CD000FDDFB /* AbstractStageObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 51722FAF15BC52CD000FDDFB /* AbstractStageObj.m */; };
 		52E9A8AB15BBE55A003B7D61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E9A8AA15BBE55A003B7D61 /* UIKit.framework */; };
 		52E9A8AD15BBE55A003B7D61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E9A8AC15BBE55A003B7D61 /* Foundation.framework */; };
 		52E9A8AF15BBE55A003B7D61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E9A8AE15BBE55A003B7D61 /* CoreGraphics.framework */; };
@@ -41,6 +42,9 @@
 		51722FAA15BC5108000FDDFB /* FrameProcessable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameProcessable.h; sourceTree = "<group>"; };
 		51722FAB15BC5166000FDDFB /* FpsConf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FpsConf.h; sourceTree = "<group>"; };
 		51722FAC15BC5166000FDDFB /* FpsConf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FpsConf.m; sourceTree = "<group>"; };
+		51722FAE15BC52CD000FDDFB /* AbstractStageObj.h */ = {isa = PBXFileReference; fileEncoding = 4; path = AbstractStageObj.h; sourceTree = "<group>"; };
+		51722FAF15BC52CD000FDDFB /* AbstractStageObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractStageObj.m; sourceTree = "<group>"; };
+		51722FB215BC54BC000FDDFB /* EnemyActionListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnemyActionListener.h; sourceTree = "<group>"; };
 		52E9A8A615BBE559003B7D61 /* shooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E9A8AA15BBE55A003B7D61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		52E9A8AC15BBE55A003B7D61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -90,6 +94,7 @@
 		51722FA215BC4FB2000FDDFB /* stage */ = {
 			isa = PBXGroup;
 			children = (
+				51722FB115BC5408000FDDFB /* manage */,
 				51722FA315BC4FB8000FDDFB /* obj */,
 			);
 			name = stage;
@@ -124,6 +129,8 @@
 		51722FA615BC5072000FDDFB /* view */ = {
 			isa = PBXGroup;
 			children = (
+				51722FAE15BC52CD000FDDFB /* AbstractStageObj.h */,
+				51722FAF15BC52CD000FDDFB /* AbstractStageObj.m */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -152,6 +159,14 @@
 				51722FAC15BC5166000FDDFB /* FpsConf.m */,
 			);
 			name = frameRate;
+			sourceTree = "<group>";
+		};
+		51722FB115BC5408000FDDFB /* manage */ = {
+			isa = PBXGroup;
+			children = (
+				51722FB215BC54BC000FDDFB /* EnemyActionListener.h */,
+			);
+			name = manage;
 			sourceTree = "<group>";
 		};
 		52E9A89B15BBE559003B7D61 = {
@@ -338,6 +353,7 @@
 				52E9A8C015BBE55A003B7D61 /* shooter.xcdatamodeld in Sources */,
 				51722FA015BC4B7E000FDDFB /* AbstractMoveLogic.m in Sources */,
 				51722FAD15BC5166000FDDFB /* FpsConf.m in Sources */,
+				51722FB015BC52CD000FDDFB /* AbstractStageObj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
