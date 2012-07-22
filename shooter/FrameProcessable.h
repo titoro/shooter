@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @protocol FrameProcessable <NSObject>
-- (void) process;
+- (void) processFrame;
 @end
