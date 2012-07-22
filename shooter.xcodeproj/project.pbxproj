@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		51722FA015BC4B7E000FDDFB /* AbstractMoveLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 51722F9F15BC4B7E000FDDFB /* AbstractMoveLogic.m */; };
+		51722FAD15BC5166000FDDFB /* FpsConf.m in Sources */ = {isa = PBXBuildFile; fileRef = 51722FAC15BC5166000FDDFB /* FpsConf.m */; };
 		52E9A8AB15BBE55A003B7D61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E9A8AA15BBE55A003B7D61 /* UIKit.framework */; };
 		52E9A8AD15BBE55A003B7D61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E9A8AC15BBE55A003B7D61 /* Foundation.framework */; };
 		52E9A8AF15BBE55A003B7D61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E9A8AE15BBE55A003B7D61 /* CoreGraphics.framework */; };
@@ -37,6 +38,9 @@
 /* Begin PBXFileReference section */
 		51722F9E15BC4B7E000FDDFB /* AbstractMoveLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractMoveLogic.h; sourceTree = "<group>"; };
 		51722F9F15BC4B7E000FDDFB /* AbstractMoveLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractMoveLogic.m; sourceTree = "<group>"; };
+		51722FAA15BC5108000FDDFB /* FrameProcessable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameProcessable.h; sourceTree = "<group>"; };
+		51722FAB15BC5166000FDDFB /* FpsConf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FpsConf.h; sourceTree = "<group>"; };
+		51722FAC15BC5166000FDDFB /* FpsConf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FpsConf.m; sourceTree = "<group>"; };
 		52E9A8A615BBE559003B7D61 /* shooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E9A8AA15BBE55A003B7D61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		52E9A8AC15BBE55A003B7D61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -94,6 +98,7 @@
 		51722FA315BC4FB8000FDDFB /* obj */ = {
 			isa = PBXGroup;
 			children = (
+				51722FA615BC5072000FDDFB /* view */,
 				51722FA415BC4FD7000FDDFB /* strategy */,
 			);
 			name = obj;
@@ -114,6 +119,39 @@
 				51722F9F15BC4B7E000FDDFB /* AbstractMoveLogic.m */,
 			);
 			name = move;
+			sourceTree = "<group>";
+		};
+		51722FA615BC5072000FDDFB /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		51722FA715BC5091000FDDFB /* util */ = {
+			isa = PBXGroup;
+			children = (
+				51722FA815BC509A000FDDFB /* system */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		51722FA815BC509A000FDDFB /* system */ = {
+			isa = PBXGroup;
+			children = (
+				51722FA915BC50A0000FDDFB /* frameRate */,
+			);
+			name = system;
+			sourceTree = "<group>";
+		};
+		51722FA915BC50A0000FDDFB /* frameRate */ = {
+			isa = PBXGroup;
+			children = (
+				51722FAA15BC5108000FDDFB /* FrameProcessable.h */,
+				51722FAB15BC5166000FDDFB /* FpsConf.h */,
+				51722FAC15BC5166000FDDFB /* FpsConf.m */,
+			);
+			name = frameRate;
 			sourceTree = "<group>";
 		};
 		52E9A89B15BBE559003B7D61 = {
@@ -150,6 +188,7 @@
 		52E9A8B215BBE55A003B7D61 /* shooter */ = {
 			isa = PBXGroup;
 			children = (
+				51722FA715BC5091000FDDFB /* util */,
 				51722FA215BC4FB2000FDDFB /* stage */,
 				52E9A8BB15BBE55A003B7D61 /* AppDelegate.h */,
 				52E9A8BC15BBE55A003B7D61 /* AppDelegate.m */,
@@ -298,6 +337,7 @@
 				52E9A8BD15BBE55A003B7D61 /* AppDelegate.m in Sources */,
 				52E9A8C015BBE55A003B7D61 /* shooter.xcdatamodeld in Sources */,
 				51722FA015BC4B7E000FDDFB /* AbstractMoveLogic.m in Sources */,
+				51722FAD15BC5166000FDDFB /* FpsConf.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
