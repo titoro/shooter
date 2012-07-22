@@ -83,35 +83,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		51722F9A15BC4A75000FDDFB /* model */ = {
-			isa = PBXGroup;
-			children = (
-				51722F9C15BC4A7C000FDDFB /* strategy */,
-			);
-			name = model;
-			sourceTree = "<group>";
-		};
-		51722F9C15BC4A7C000FDDFB /* strategy */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = strategy;
-			sourceTree = "<group>";
-		};
-		51722F9D15BC4A94000FDDFB /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = view;
-			sourceTree = "<group>";
-		};
-		51722FA115BC4F95000FDDFB /* controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = controller;
-			sourceTree = "<group>";
-		};
 		51722FA215BC4FB2000FDDFB /* stage */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,9 +151,6 @@
 			isa = PBXGroup;
 			children = (
 				51722FA215BC4FB2000FDDFB /* stage */,
-				51722FA115BC4F95000FDDFB /* controller */,
-				51722F9D15BC4A94000FDDFB /* view */,
-				51722F9A15BC4A75000FDDFB /* model */,
 				52E9A8BB15BBE55A003B7D61 /* AppDelegate.h */,
 				52E9A8BC15BBE55A003B7D61 /* AppDelegate.m */,
 				52E9A8BE15BBE55A003B7D61 /* shooter.xcdatamodeld */,
