@@ -12,10 +12,9 @@
 @interface AbstractMoveLogic : NSObject
 {
     CGRect _stageRect;
-    CGRect _currentRect;
 }
 
 - (id) initWithStageRect:(CGRect)stageRect;
-- (CGPoint) nextRect:(CGRect)currentRect;
+- (CGRect) nextRect:(CGRect)currentRect;
 
 @end

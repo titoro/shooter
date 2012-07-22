@@ -18,13 +18,13 @@
     return self;
 }
 
-- (CGPoint)nextRect:(CGRect)currentRect
+- (CGRect)nextRect:(CGRect)currentRect
 {
     [[NSException exceptionWithName:@"NotImplementedError"
                              reason:@"Must implement this class in subclass."
                            userInfo:nil]
      raise];
-    return nil;
+    return currentRect;
 }
 
 @end
