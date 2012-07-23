@@ -5,11 +5,16 @@
 //  Created by ryuji kamiyama on 12/07/23.
 //  Copyright (c) 2012年 unko corporation. All rights reserved.
 //
+/****************************************************
+ ステージのインターフェイスを定義
+ ****************************************************/
+
 
 #import "AbstractStageObj.h"
 
 @implementation AbstractStageObj
 
+/*　初期化　ステージの描画 */
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];

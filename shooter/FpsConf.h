@@ -11,8 +11,10 @@
 @interface FpsConf : NSObject
 
 /** Frames Per Second */
+// FPS の速度を格納する変数
 + (int)FPS;
 /** Seconds Per Frame */
+// FPS のズレを修正する時に使用するSPFの速度を格納する変数
 + (float)SPF;
 
 @end

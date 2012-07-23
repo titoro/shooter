@@ -6,6 +6,12 @@
 //  Copyright (c) 2012年 unko corporation. All rights reserved.
 //
 
+/****************************************************
+ 敵オブジェクトからのリクエストを受け取るクラス
+ 敵オブジェクトの状態を管理
+ ****************************************************/
+
+
 #import <Foundation/Foundation.h>
 
 @class AbstractEnemy;

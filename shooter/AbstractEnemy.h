@@ -6,6 +6,10 @@
 //  Copyright (c) 2012年 unko corporation. All rights reserved.
 //
 
+/****************************************************
+ 敵クラスのインターフェイスを宣言
+ ****************************************************/
+
 #import "AbstractStageObj.h"
 #import "EnemyActionListener.h"
 

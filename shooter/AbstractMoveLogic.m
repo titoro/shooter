@@ -5,6 +5,9 @@
 //  Created by ryuji kamiyama on 12/07/22.
 //  Copyright (c) 2012年 unko corporation. All rights reserved.
 //
+/****************************************************
+ 移動処理のインターフェイスを定義
+ ****************************************************/
 
 #import "AbstractMoveLogic.h"
 
