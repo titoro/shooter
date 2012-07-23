@@ -423,6 +423,7 @@
 				52E9A8DB15BBE55A003B7D61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52E9A8DC15BBE55A003B7D61 /* Build configuration list for PBXNativeTarget "shooterTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +432,7 @@
 				52E9A8DE15BBE55A003B7D61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
